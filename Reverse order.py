@@ -1,4 +1,4 @@
-num = 56000
+num = 500
 print(f"The number is: {num}")
 while num > 0 and num < 10:
     print("number has 1 digit")
