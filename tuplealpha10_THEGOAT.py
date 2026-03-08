@@ -1,0 +1,8 @@
+tuplealpha10 = ('A','B','C','D','E','F','G','H','I','J')
+print (tuplealpha10)
+print ("there are :")
+print (len(tuplealpha10),"letters")
+print (tuplealpha10[2:8])
+tuplemarks = (90,68,90,98,45,21,57,90)
+print ("most occuring marks:")
+print (tuplemarks.count(90),"of 90")
