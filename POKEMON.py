@@ -9,10 +9,10 @@ print (pokemon1.species)
 print (pokemon2.species)
 print (pokemon3.species)     
 userchoice = str(input("Choose your pokemon: "))
-if userchoice == "Bulbasaur" or "bulbasuar":
+if userchoice == "Bulbasuar" or userchoice == "bulbasuar":
     print(pokemon1.species,",",pokemon1.type,"type")
-if userchoice == "Charizard" or "charizard":
+elif userchoice == "Charizard" or userchoice == "charizard":
     print(pokemon2.species,",",pokemon2.type,"type")    
-if userchoice == "Sqiurtle" or "sqiurtle":
+elif userchoice == "Sqiurtle" or userchoice == "sqiurtle":
     print(pokemon3.species,",",pokemon3.type,"type")
 
